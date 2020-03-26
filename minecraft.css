@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+html{
+    font-size:100%;
+}
+
+body{
+    line-height: 1.7;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrap{
+    overflow: hidden;
+}
+#home{
+    background-image: url(img/home-bg.jpg);
+    min-height: 100vh;
+}
+
+.bg-photo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#head-title{
+    margin-top: 0px;
+    padding-right: 1rem;
+    display: flex;
+}
+#head-title a{
+    color: rgba(20, 20, 20, 0.8);
+}
+
+#header{
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 3px solid rgb(13, 13, 14);
+    border-radius: 0px 0 10px 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.head-nav{
+    display: flex;
+    padding: 5px 0px;
+}
+
+.head-nav li{
+    list-style: none;
+    margin-right: 3rem;
+}
+
+.head-nav a:hover{
+    color:#0bd;
+}
+
+.wrapper{
+    margin: 0 auto 1rem;
+    padding: 0 4%;
+    background-color:silver;
+    word-wrap: break-word;
+}
+
+#intro-title{
+    text-align: center;
+}
+
+#intro{
+    margin: 50px 4% 0 4% ;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(192, 192, 192, 0.7);
+    padding: auto;
+    text-align: center;
+    min-width: 400px;
+}
+
+.slider img{
+    width:90%;
+
+}
+
+.intro-button{
+    display: inline-block;
+    font-size: 1.375rem;
+    border: 1px solid orchid;
+    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    margin: auto;
+    margin-bottom: 0.6rem;
+    max-width: 300px;
+    background-color: rgba(200, 200, 230, 0.5);
+}
+
+.intro-button:hover{
+    background-color:rgba(200, 200, 240, 0.8);
+    color:rgba(129,129,129,0.9);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+#info,#profile{
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+#info{
+    width: 40%;
+    margin: auto 30px;
+}
+.info-news li{
+    border-bottom: 1px solid rgba(255,255,255,1.0);
+}
+
+#more{
+    text-align: right;
+}
+
+#profile{
+    width: 20%;
+    margin: auto 30px;
+}
+.pro-photo img{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-size: cover;
+}
+.pro-photo p{
+    margin: 9px;
+}
+
+#footer{
+    background: rgba(177, 177, 129, 1.0);
+    margin-top: auto;
+    padding: 5px 0 1px 20px;
+    width: 100%;
+    margin: auto;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#copyright{
+    text-align: center;
+}
+
+.link-list{
+    display: flex;
+    justify-content: center;
+}
+.link-list li{
+    font-size: 3.25rem;
+    padding-right: 1rem;
+}
+#collection{
+    background:rgba(230, 200, 200, 1.0);
+    min-height: 100vh;
+}
+#page-title{
+    margin-top: 12vh;
+    text-align: center;
+    border: 2px double white;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+}
+#page-title h2{
+    font-size: 2.75rem;
+    font-family: 'Expletus Sans', cursive;
+}
+#cocricot{
+    font-size: 1.25rem;
+    color: slateblue;
+}
+#cocricot:hover{
+    color: #0bd;
+    text-decoration: underline;
+}
+
+.grid{
+    padding-top: 1rem;
+    background: rgba(240, 240, 240, 0.1);
+    display: grid;
+    gap:2rem;
+    grid-template-columns: 1fr 1fr;
+
+}
+.item{
+    margin: 1rem;
+    padding: 20px;
+    text-align: center;
+    border-top: 0.8rem solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 2px solid gray;
+    background: white;
+    font-family: 'Kosugi Maru', sans-serif;
+    border-radius: 0 0 5rem 0 ;
+}
+.item img{
+    object-fit: cover;
+}
+.item h2{
+    margin: auto;
+    max-width: 60%;
+    border-left: 1.3rem solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#page-top a {
+    background: rgba(102, 102, 102,0.6);
+    text-decoration: none;
+    color: #fff;
+    width: 80px;
+    padding: 25px 0;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+
+
+
+#contact{
+    background-image: url(img/photo-10.png);
+    min-height: 100vh;
+}
+.contact-section{
+    font-family: "montserrat",sans-serif;
+    padding :45px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: #4C4A48;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color:#ddd;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #bdc3c7;
+}
+textarea.contact-form-text{
+    resize:none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+
+
+/* モバイル版 */
+@media(max-width:600px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-button{
+        width: 30%;
+        font-size: 1.0rem;
+    }
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #info,#profile{
+        margin: 4%;
+        width: 100%;
+    }
+    #page-title{
+        width:80%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid h2{
+        font-size: 1.375rem;
+        padding-left: 2px;
+        min-width: 80%;
+    }
+    .grid p{
+        font-size: 0.8rem;
+    }
+}
